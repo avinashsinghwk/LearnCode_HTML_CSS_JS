@@ -1,0 +1,30 @@
+.text_color_white{
+    color: white;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border: 0.5px solid white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover, .card_btn:hover{
+    background-color: green;
+}
+.card_btn{
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(190, 24, 93);
+}
+
+.menuClicked{
+    width: 100%;
+    padding: 2rem;
+}

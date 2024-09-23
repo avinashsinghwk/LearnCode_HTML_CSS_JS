@@ -1,0 +1,222 @@
+@media (max-width:1150px) {
+    .boxes {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width:1050px) {
+    #course {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width:880px) {
+
+    /* Home Section */
+    nav {
+        padding: 2rem;
+        border-bottom: 1px solid white;
+    }
+
+    .links {
+        width: 0px;
+        height: calc(100vh - 104.2px);
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 103.2px;
+        flex-direction: column;
+        padding: 0;
+        z-index: 1;
+        row-gap: 1.2rem;
+        overflow: hidden;
+        transition: width 0.5s, padding 0.5s;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Service Section */
+
+    #service {
+        padding: 3rem 6rem;
+    }
+
+    .service_wrapper {
+        flex-direction: column;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .service_right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .service_left img {
+        width: 21rem;
+        height: 14rem;
+    }
+
+    /* Login Section */
+
+    #login {
+        padding: 4rem 2rem;
+    }
+
+    /* Course Section */
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .card{
+        width: 70%;
+    }
+
+    /* ---------------  Boxes ----------- */
+
+    .boxes{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .box_svg svg{
+        font-size: 1.1rem;
+    }
+    .box_p{
+        font-size: 0.8rem;
+    }
+
+    /* footer */
+
+    footer{
+        padding: 1rem 3rem ;
+    }
+
+}
+
+@media (max-width:550px) {
+    nav{
+        padding: 1rem 2rem;
+    }
+    .links{
+        height: calc(100vh - 72.2px);
+        top: 71.2px;
+    }
+    .home_data_p2 {
+        font-size: 3rem;
+    }
+
+    .home_data_p3 {
+        font-size: 2.1rem;
+    }
+
+    /* Service Section */
+    #service {
+        padding: 3rem;
+    }
+
+    .service_left img {
+        width: 17rem;
+        height: 12rem;
+    }
+
+    /* Login Section */
+
+    #login {
+        flex-direction: column;
+    }
+
+    .login_right,
+    .login_left,
+    .login_right_form input {
+        width: 100%;
+    }
+
+    /* Course Section */
+
+    #course {
+        padding: 4rem 1.5rem;
+    }
+    .card{
+        width: 90%;
+    }
+    .card_logo svg{
+        font-size: 2.5rem;
+    }
+    .card_h{
+        font-size: 1.2rem;
+    }
+    .card_price{
+        font-size: 1.8rem;
+    }
+    .card_p{
+        font-size: 0.9rem;
+    }
+
+    /* ---------------  Boxes ----------- */
+    .boxes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* footer */
+
+    footer{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .footer_p{
+        font-size: 0.8rem;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social_p{
+        font-size: 1rem;
+    }
+    .social_svgs svg{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:350px) {
+    .home_data_p2 {
+        font-size: 2.5rem;
+    }
+
+    .home_data_p3 {
+        font-size: 1.5rem;
+    }
+
+    /* Service Section */
+    #service {
+        padding: 3rem 2rem;
+    }
+
+    .service_left img {
+        width: 14rem;
+    }
+
+    /* Course Section */
+
+    .card{
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .card_logo svg{
+        font-size: 2rem;
+    }
+    .card_p{
+        font-size: 0.8rem;
+    }
+
+    /* ---------------  Boxes ----------- */
+
+    .boxes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

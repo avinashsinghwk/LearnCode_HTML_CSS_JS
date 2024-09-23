@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------- Home Section --------------  */
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(42, 86, 126);
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9rem;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.85rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.links_wrapper{
+    display: flex;
+    column-gap: 2.4rem;
+}
+.links{
+    display: flex;
+    column-gap: 2.4rem;
+}
+.links a{
+    text-decoration: none;
+    font-size: 1.02rem;
+    color: rgb(255, 255, 255);
+    font-family: ui-sans-serif,system-ui;
+}
+.hamburger{
+    display: none;
+}
+.hamburger svg{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.home_data_p1{
+    font-size: 1.85rem;
+    color: rgb(254, 252, 232);
+}
+.home_data_p2{
+    font-size: 4.4rem;
+}
+.home_data_p3{
+    font-size: 3rem;
+}
+#auto_typed_text{
+    color: rgb(253, 224, 71);
+}
+.home_data_btn{
+    margin-top: 1.5rem;
+    padding: 1rem 1.9rem;
+}
+
+/* --------------------------------------- */
+
+
+/* -------------------- Service Section ----------------- */
+
+#service{
+    width: 100%;
+    padding: 3rem 9rem;
+    font-family: ui-sans-serif,system-ui;
+    display: flex;
+}
+.service_wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.service_left img{
+    width: 19rem;
+    height: 13rem;
+    border-radius: 5px;
+}
+
+.service_right{
+    width: 60%;
+    margin-left: 2rem;
+}
+.service_right_h{
+    color: rgb(74, 222, 128);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.service_right_p{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.service_btn{
+    padding: 1rem 1.3rem;
+    margin-top: 0.7rem;
+}
+
+/* ------------------------------- */
+
+/* ---------------- Login Section -------------- */
+
+#login{
+    width: 100%;
+    padding: 4rem 9rem;
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(42, 86, 126);
+    font-family: ui-sans-serif,system-ui;
+    color: white;
+}
+.login_left{
+    width: 50%;
+    margin-bottom: 5rem;
+}
+.login_left_h{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.login_left_p{
+    font-size: 1.1rem;
+}
+.login_right{
+    width: 50%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 4rem;
+}
+.login_right_form{
+    margin-bottom: 1rem;
+}
+.login_right_form input{
+    padding: 0.5rem 1rem;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.login_btn{
+    padding: 0.5rem 1rem;
+}
+.login_right a {
+    text-decoration: none;
+    color: rgb(253, 224, 71);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* ------------------------- */
+
+/* Course Section */
+
+#course{
+    padding: 4rem 7rem;
+    width: 100%;
+    user-select: none;
+}
+
+/* ---------- Cards ---------  */
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 30%;
+    padding: 2rem;
+    box-shadow: 0 5px 12px #cacaca;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: scale(0.9);
+}
+.card2{
+    background-color: rgb(243, 244, 246);
+}
+.card_logo svg{
+    font-size: 3.75rem;
+}
+.card_h{
+    color: rgb(37, 99, 235);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card_price{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.card_price2{
+    color: rgb(37, 99, 235);
+}
+.card_p{
+    font-size: 1rem;
+    font-family: ui-sans-serif,system-ui;
+    font-weight: 700;
+}
+
+/* ---------- box ------------ */
+
+.boxes{
+    width: 100%;
+    background-color: rgb(234 236 239);
+    display: grid;
+    grid-template-columns: repeat(4, 10rem) repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+.box:hover{
+    transform: scale(0.9);
+}
+.box_svg svg{
+    font-size: 1.4rem;
+}
+.box_p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: ui-sans-serif,system-ui;
+}
+
+/* ------------------------------------ */
+
+/* ------------ footer  --------------*/
+footer{
+    background-color: rgb(42, 86, 126);
+    padding: 1rem 7rem ;
+    font-family: ui-sans-serif,system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.social_p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.3rem;
+}
+.social_svgs{
+    display: flex;
+    column-gap: 1rem;
+}
+.social_svgs svg{
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+.social_svgs svg:hover{
+    transform: scale(1.2);
+}
